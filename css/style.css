@@ -1,0 +1,231 @@
+.titulo-contactanos {
+  padding: 30px;
+  background-image: linear-gradient(#ffffff, #ffcbcb); }
+
+.titulo-contactanos {
+  transform: translateY(10px);
+  transition: all 2s;
+  animation-name: animacion-contactanos;
+  animation-iteration-count: infinite;
+  animation-duration: 2s; }
+
+@keyframes animacion-contactanos {
+  0% {
+    transform: translateY(0); }
+  50% {
+    transform: translateY(10px); }
+  100% {
+    transform: translateY(0); } }
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif; }
+
+.header {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%; }
+
+.header img {
+  width: 150px; }
+
+.header .container {
+  width: 100%;
+  /* Ajustamos el ancho para que ocupe todo el header */ }
+
+.header ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between; }
+
+.header a {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase; }
+
+.header nav ul li a {
+  color: black;
+  text-decoration: none; }
+
+.header nav ul li a:hover {
+  background-color: #cceff9; }
+
+body {
+  margin: 0;
+  background-color: beige; }
+
+.main {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 175px; }
+
+.main h1 {
+  padding: 13px;
+  color: white;
+  font-family: 'Times New Roman', Times, serif; }
+
+/* CSS personalizado*/
+.main-nosotros {
+  background-color: beige;
+  padding: 30px;
+  margin-top: 175px; }
+
+.main-nosotros h1 {
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 36px;
+  padding-bottom: 22px; }
+
+.main-nosotros p {
+  font-size: 18px;
+  text-align: center;
+  padding: 30px;
+  background-color: black;
+  color: white; }
+
+.main-servicios h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Times New Roman', Times, serif;
+  height: 80px; }
+
+.main-servicios {
+  background-color: beige;
+  margin-top: 175px; }
+
+.main-servicios h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Times New Roman', Times, serif;
+  height: 80px; }
+
+.main-servicios section {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.main-servicios div {
+  display: flex;
+  background-color: beige; }
+
+.main-servicios img {
+  margin: 30px;
+  height: 400px; }
+
+.main-servicios p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px; }
+
+.formulario {
+  background-size: 2000px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px; }
+
+.main-contactanos h2 {
+  display: flex;
+  justify-content: space-around;
+  margin: revert; }
+
+.main-contactanos p {
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+  padding: 5px; }
+
+.main-contactanos {
+  height: 550px;
+  background-color: beige;
+  margin-top: 190px; }
+
+.form-control {
+  margin: 4px; }
+
+.main-productos {
+  background-color: beige;
+  margin-top: 175px; }
+
+.main-productos h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Times New Roman', Times, serif;
+  height: 80px; }
+
+.main-productos img {
+  max-width: 100%;
+  height: auto;
+  margin: 31px; }
+
+.main-productos-section {
+  align-items: center; }
+
+.main-productos-div {
+  display: flex;
+  background-color: beige;
+  overflow: hidden; }
+
+h4 {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  background-color: black; }
+
+.enlace-uno {
+  padding: 10px; }
+
+.enlace-dos {
+  padding: 10px; }
+
+.enlace-tres {
+  padding: 10px; }
+
+@media screen and (max-width: 768px) {
+  .main-servicios {
+    flex-direction: column;
+    align-items: center; }
+  .main-servicios div {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .main-servicios img {
+    max-width: 100%;
+    margin-bottom: 10px; }
+  .main-servicios p {
+    text-align: center; } }
+
+.footer {
+  background-color: black;
+  color: white; }
+
+.footer ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly !important;
+  height: 101px;
+  align-items: center; }
+
+.footer p {
+  text-align: center; }
+
+.footer li {
+  color: white; }
+
+.footer a {
+  color: white;
+  text-decoration: none; }
+
+.footer a:hover {
+  background-color: #cceff9; }

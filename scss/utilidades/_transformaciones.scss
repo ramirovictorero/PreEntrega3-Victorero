@@ -1,0 +1,21 @@
+.titulo-contactanos {
+  transform: translateY(10px);
+  transition: all 2s;
+  animation-name: animacion-contactanos;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+}
+
+@keyframes animacion-contactanos {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}

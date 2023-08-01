@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+.header img {
+    width: 150px;
+}
+
+.header .container {
+    width: 100%;
+    /* Ajustamos el ancho para que ocupe todo el header */
+}
+
+.header ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.header a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.header nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.header nav ul li a:hover {
+    background-color: #cceff9;
+}
